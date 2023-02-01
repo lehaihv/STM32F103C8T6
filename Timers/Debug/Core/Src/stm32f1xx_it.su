@@ -9,4 +9,3 @@
 ../Core/Src/stm32f1xx_it.c:184:6:SysTick_Handler	8	static
 ../Core/Src/stm32f1xx_it.c:205:6:TIM2_IRQHandler	8	static
 ../Core/Src/stm32f1xx_it.c:219:6:TIM3_IRQHandler	8	static
-../Core/Src/stm32f1xx_it.c:231:6:HAL_TIM_PeriodElapsedCallback	16	static

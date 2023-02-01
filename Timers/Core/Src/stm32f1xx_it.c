@@ -228,16 +228,5 @@ void TIM3_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-  // Check which version of the timer triggered this callback and toggle LED
-  if (htim == &htim3)
-  {
-    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_10);
-  }
-  else if (htim == &htim2)
-  {
-	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-  }
-}
+
 /* USER CODE END 1 */
